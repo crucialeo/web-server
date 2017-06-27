@@ -12,7 +12,7 @@ import socket
 # 参数 socket.AF_INET 表示是 ipv4 协议
 # 参数 socket.SOCK_STREAM 表示是 tcp 协议
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-# 这两个其实是默认值, 所以你可以不写, 如下
+# 这两个其实是默认值, 所以可以不写, 如下
 # s = socket.socket()
 # s = ssl.wrap_socket(socket.socket())
 
